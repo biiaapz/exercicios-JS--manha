@@ -2,7 +2,7 @@
 //alert("Hello Word!!!")
 
 //console.log("Hello word!!!");
-//escrevaum programa que solocite o nome de usuario
+//escreva um programa que solocite o nome de usuario
 // e lhe de boas vindas, exibindo uma mensagem pelo console.
 
 //prompt()- recebe uma entrada digitada
