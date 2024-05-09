@@ -25,4 +25,9 @@ if (diadasemana == "6"){
 }
 if (diadasemana == "7"){
     console.log("Domingo")
+    
+}
+if (diadasemana > "7"){
+    console.log("este dia não existe")
+    
 }
