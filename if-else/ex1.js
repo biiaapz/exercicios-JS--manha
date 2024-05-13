@@ -6,7 +6,7 @@
 //Solicita ao usuário um nome de usuário 
 let username = prompt("Digite um nome de usuário: ");
 
-//Solicita ao usuário uma senha
+//Solicita ao usuário ut dtma senha
 let senha = prompt("Digite a senha: ");
 
 //Verifique se o nome de usuário é "admin"; e a senha é "senha123"

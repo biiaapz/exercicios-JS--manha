@@ -37,3 +37,7 @@ for (let indice = 0; indice < 5; indice++) {
         console.log("eu gosto de " + frutas[indice])
     }
 }
+
+for (let index = 0; index < object.keys.length; index++){
+    const element = object[]
+}
