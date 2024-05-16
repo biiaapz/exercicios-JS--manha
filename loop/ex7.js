@@ -9,7 +9,8 @@ let soma = 0;
 
 while (numero <= 100) {
     soma += numero;
+    console.group(soma)
     numero++;
 }
 
-console.log("a soma dos numeros del 1 a 100 sao:", soma);
+console.log("a soma dos numeros de 1 a 100 sao:" + soma);

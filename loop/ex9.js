@@ -6,13 +6,11 @@
 
 let numero = parseInt(prompt("Digite um número para a contagem regressiva:"));
 
-if (!isNaN(numero) && numero >= 0) {
-    console.log(`Contagem regressiva de ${numero} até 0:`);
+    console.log("Contagem regressiva esta começando em:" + numero);
     
     while (numero >= 0) {
         console.log(numero);
         numero--;
     }
-} else {
-    console.log("Por favor, digite um número válido maior ou igual a 0.");
-}
+
+    console.log("contagem regressiva finalizada!");
