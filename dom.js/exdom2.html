@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 2</title>
+</head>
+
+<body>
+    <!-- 2-adicionar e remover intens de uma lista -->
+
+    <ul id="minhaLista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+
+    </ul>
+
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <button onclick="removerItem()">Remover Item</button>
+
+    <script>
+        //funcao adicionar item
+        function adicionarItem() {
+            //criar um novo elemento li
+            let novoItem = document.createElement("li")
+            //definir o texto do novo item
+            novoItem.textContent = "Novo Item";
+            //indentificando o item no HTML
+            let lista = document.getElementById("minhaLista")
+            //adicionar um novo item a lista
+            lista.appendChild(novoItem)
+        }
+
+        function removerItem() {
+            //Indentificar o item no HTML
+            let lista = document.getElementById("minhaLista")
+
+            if (lista.children.length > 0) {
+                //Remove o ultimo elemento da lista
+                lista.removeChild(lista.lastElementChild);
+            }
+
+        }
+    </script>
+</body>
+
+</html>

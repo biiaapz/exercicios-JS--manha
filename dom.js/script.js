@@ -1,5 +1,3 @@
-// Substitui o conteúdo do body do documento HTML com um novo elemento <h1> com id "titulo" e texto "Titulo legal"
-document.body.innerHTML = '<h1 id="titulo">Titulo legal</h1>'
 // // Substitui o conteúdo do body do documento HTML com um novo elemento <h1> com id "titulo" e texto "Titulo legal"
 // document.body.innerHTML = '<h1 id="titulo">Titulo legal</h1>'
 
@@ -31,7 +29,7 @@ const somarCliques = () => {
     //Incrementou 1 no valor da variavel
     clique++
 
-    //Seleciona o botaão por querSelector e atualiza a quantidad ede cliques no html
+    //Seleciona o botaão por querySelector e atualiza a quantidade de cliques no html
     document.querySelector("#botao").innerHTML = clique
 
 }
@@ -40,7 +38,7 @@ const adicionarItem = () => {
     //Criar um novo elemento li(item da lista)
     let novoItem = document.createElement("li")
 
-    //Define o texto do no item
+    //Define o texto do novo item
     novoItem.textContent = "Novo Item"
 
     //Identifica o elemento que vai ser adicionado
@@ -51,9 +49,9 @@ const adicionarItem = () => {
 }
 
 const voltarPagina = () =>{
-window.history.back()
+    window.history.back()
 }
 
-const fecharPagina = () => {
-    window.closed()
+const fecharPagina = () =>{
+    window.close()
 }
